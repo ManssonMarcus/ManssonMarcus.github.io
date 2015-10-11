@@ -1,0 +1,39 @@
+#fancy {
+	padding: 50px;
+}
+#mainHead {
+	font-size: 45px;
+	color: #484848; 
+	font-family: 'Source Sans Pro', Helvetica, sans-serif; 
+	line-height: 1.5em; 
+	font-weight: 400;
+}
+#otherHead {
+	margin-top:50px;
+	color: #484848; 
+	font-family: 'Source Sans Pro', Helvetica, sans-serif; 
+	line-height: 1.5em; 
+	font-weight: 400;
+}
+ #theText {
+ 	color: #626262; 
+ 	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+ }
+
+@media screen and (max-width: 500px) {
+
+#fancy {
+	padding: 20px;
+}
+#mainHead {
+	font-size: 22px;
+}
+#otherHead {
+	margin-top:20px;
+	font-size: 16px;	
+}
+#theText {
+	font-size: 10px;
+}
+
+}
